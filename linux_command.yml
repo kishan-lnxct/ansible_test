@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: list the directory
+    raw: ls -a /home/ubuntu/
